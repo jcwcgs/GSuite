@@ -1,8 +1,8 @@
 function updateUserPhotoFromDrive() {
   
-  var domain = [your G Suite domain name]];
-  var folderId = [folder id containing all user photos]];
-  var fileExtension = [file extension type, eg .jpg, the dot is important];
+  var domain = '[your G Suite domain name]';
+  var folderId = '[folder id containing all user photos]';
+  var fileExtension = '[file extension type, eg .jpg, the dot is important]';
   
   var dApp = DriveApp;
   var folder = dApp.getFolderById(folderId);
